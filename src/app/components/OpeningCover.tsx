@@ -71,7 +71,7 @@ export function OpeningCover({ onOpen, guestName = "Keluarga Besar" }: OpeningCo
 
         {/* Nama pengantin */}
         <h1 className="text-white text-3xl font-serif mb-4">
-          Saakhi & Indah
+          Indah & Saakhi 
         </h1>
 
         <img 

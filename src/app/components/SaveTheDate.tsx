@@ -5,7 +5,7 @@ export function SaveTheDate() {
   const handleAddToCalendar = () => {
     // Create ICS file content
     const event = {
-      title: 'Pernikahan Sakhi & Indah',
+      title: 'Pernikahan Indah & Saakhi',
       description: 'Akad Nikah dan Resepsi Pernikahan',
       location: 'Jl. Dt. Parpatiah nan Sabatang',
       start: '20260615T080000',

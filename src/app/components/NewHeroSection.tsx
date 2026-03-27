@@ -86,7 +86,7 @@ export function NewHeroSection() {
         >
           <img 
             src={imgNamesCalligraphy}
-            alt="Saakhi & Indah"
+            alt="Indah & Saakhi"
             className="w-72 mx-auto"
           />
         </motion.div>
@@ -98,11 +98,12 @@ export function NewHeroSection() {
           transition={{ duration: 0.8, delay: 0.9 }}
           className="space-y-8"
         >
+          
           <div>
             <h1 className="text-4xl font-serif text-emerald-800 mb-2">
-              Ahmad Saakhi
+              Indah Kurnia Asyura
             </h1>
-            <p className="text-gray-600 text-sm">Putra dari Bapak Ahmad Siddiq & Ibu Susi Yemita</p>
+            <p className="text-gray-600 text-sm">Putra dari Bapak Syamsul Bahri & Ibu Linda Yanti</p>
           </div>
           
           <div className="flex items-center justify-center gap-3 my-6">
@@ -113,9 +114,9 @@ export function NewHeroSection() {
           
           <div>
             <h1 className="text-4xl font-serif text-emerald-800 mb-2">
-              Indah Kurnia Asyura
+              Ahmad Saakhi
             </h1>
-            <p className="text-gray-600 text-sm">Putra dari Bapak Syamsul Bahri & Ibu Linda Yanti</p>
+            <p className="text-gray-600 text-sm">Putra dari Bapak Ahmad Siddiq & Ibu Susi Yemita</p>
           </div>
         </motion.div>
 
