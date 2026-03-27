@@ -32,7 +32,7 @@ export function CoupleSection() {
             <div className="text-emerald-600 text-sm font-medium mb-2">THE GROOM</div>
             <h2 className="text-3xl font-serif text-gray-800 mb-3">Ahmad Saakhi</h2>
             <div className="text-gray-600 text-sm mb-2">
-              <p>Putri dari:</p>
+              <p>Putra dari:</p>
               <p className="font-medium mt-1">Bapak Ahmad Siddiq & Ibu Susi Yemita</p>
             </div>
             
@@ -66,7 +66,7 @@ export function CoupleSection() {
             <div className="text-emerald-600 text-sm font-medium mb-2">THE BRIDE</div>
             <h2 className="text-3xl font-serif text-gray-800 mb-3">Indah Kurnia Asyura</h2>
             <div className="text-gray-600 text-sm mb-2">
-              <p>Putra dari:</p>
+              <p>Putri dari:</p>
               <p className="font-medium mt-1">Bapak Syamsul Bahri & Ibu Linda Yanti</p>
             </div>
             
