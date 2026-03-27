@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from "framer-motion";
 import { Calendar, Download } from 'lucide-react';
 
 export function SaveTheDate() {

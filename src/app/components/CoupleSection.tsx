@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from "framer-motion";
 import imgCoupleIllustration from "../../assets/pengantin.png";
 
 export function CoupleSection() {

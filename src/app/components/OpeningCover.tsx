@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from "framer-motion";
 import { Mail } from 'lucide-react';
 import imgCoupleIllustration from "../../assets/pengantin.png";
 

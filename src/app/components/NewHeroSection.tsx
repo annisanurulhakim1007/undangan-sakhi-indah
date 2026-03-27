@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from "framer-motion";
 import imgNamesCalligraphy from "../../assets/walimatul.png";
 import imgBismillah from "../../assets/bismillah.png";
 
