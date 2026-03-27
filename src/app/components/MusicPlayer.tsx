@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Music, Pause, Play } from 'lucide-react';
+import nasheed from "../../assets/nasheed.mp3";
 
 export function MusicPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -49,7 +50,7 @@ export function MusicPlayer() {
       <audio
         ref={audioRef}
         loop
-        src="https://cdn.pixabay.com/audio/2022/03/15/audio_d1718cece8.mp3"
+        src={nasheed}
       />
     </div>
   );

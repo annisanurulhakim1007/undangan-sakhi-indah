@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Mail } from 'lucide-react';
-import imgCoupleIllustration from 'figma:asset/665ebc8ec4619796cfc503505bfe030793b50f65.png';
+import imgCoupleIllustration from "../../assets/pengantin.png";
 
 interface OpeningCoverProps {
   onOpen: () => void;
@@ -67,12 +67,18 @@ export function OpeningCover({ onOpen, guestName = "Keluarga Besar" }: OpeningCo
           transition={{ duration: 1, delay: 0.2 }}
           className="mb-8"
         >
-          <div className="text-white/80 mb-2">THE WEDDING OF</div>
-          <img 
-            src={imgCoupleIllustration}
-            alt="Couple Illustration"
-            className="w-48 h-48 mx-auto object-contain mb-4"
-          />
+<div className="text-white/80 mb-2">THE WEDDING OF</div>
+
+        {/* Nama pengantin */}
+        <h1 className="text-white text-3xl font-serif mb-4">
+          Sakhi & Indah
+        </h1>
+
+        <img 
+          src={imgCoupleIllustration}
+          alt="Couple Illustration"
+          className="w-48 h-48 mx-auto object-cover rounded-full border-4 border-white shadow-lg mb-4"
+        />
         </motion.div>
 
         {/* Guest name */}
@@ -109,7 +115,7 @@ export function OpeningCover({ onOpen, guestName = "Keluarga Besar" }: OpeningCo
           transition={{ duration: 1, delay: 1 }}
           className="text-white/60 text-sm mt-6"
         >
-          Mohon maaf apabila ada kesalahan penulisan nama/gelar
+          
         </motion.p>
       </div>
     </motion.div>

@@ -5,9 +5,9 @@ export function SaveTheDate() {
   const handleAddToCalendar = () => {
     // Create ICS file content
     const event = {
-      title: 'Pernikahan Yohanes & Feres',
+      title: 'Pernikahan Sakhi & Indah',
       description: 'Akad Nikah dan Resepsi Pernikahan',
-      location: 'Gedung Serbaguna Nurul Iman, Jakarta',
+      location: 'Jl. Dt. Parpatiah nan Sabatang',
       start: '20260615T080000',
       end: '20260615T140000'
     };

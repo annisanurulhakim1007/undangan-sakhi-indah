@@ -34,7 +34,7 @@ export function LocationMap() {
           {/* Google Maps iframe placeholder */}
           <div className="w-full h-64 bg-gray-200 relative">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.2087634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonas%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!4v1774620299767!6m8!1m7!1sSR9aZbfWIFnhTwoSVfyZSg!2m2!1d-0.2373563550666614!2d100.6488127842964!3f334.92!4f-11.420000000000002!5f0.7820865974627469"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -51,15 +51,15 @@ export function LocationMap() {
                 <MapPin className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <h3 className="font-medium text-gray-800 mb-1">Gedung Serbaguna Nurul Iman</h3>
+                <h3 className="font-medium text-gray-800 mb-1">Jl. Dt. Parpatiah nan Sabatang</h3>
                 <p className="text-sm text-gray-600">
-                  Jl. Raya Pernikahan No. 125, Jakarta Selatan, DKI Jakarta 12345
+                  Kel. Padang Tangah Payodabar, Kec. Payakumbuh Timur, Kota Payakumbuh, Sumatera Barat
                 </p>
               </div>
             </div>
             
             <a
-              href="https://maps.google.com/?q=-6.2088,106.8456"
+              href="https://maps.app.goo.gl/gTKEKvdPygmgHJFT9"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-lg transition-colors duration-300"

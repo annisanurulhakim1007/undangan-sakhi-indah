@@ -8,8 +8,6 @@ import { CoupleSection } from './components/CoupleSection';
 import { QuranVerse } from './components/QuranVerse';
 import { EventDetails } from './components/EventDetails';
 import { LocationMap } from './components/LocationMap';
-import { PhotoGallery } from './components/PhotoGallery';
-import { HealthProtocol } from './components/HealthProtocol';
 import { NewClosingSection } from './components/NewClosingSection';
 import { MusicPlayer } from './components/MusicPlayer';
 
@@ -46,8 +44,6 @@ export default function App() {
             <QuranVerse />
             <EventDetails />
             <LocationMap />
-            <PhotoGallery />
-            <HealthProtocol />
             <NewClosingSection />
           </main>
         </>

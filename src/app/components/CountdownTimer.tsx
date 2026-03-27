@@ -9,7 +9,7 @@ interface TimeLeft {
 }
 
 export function CountdownTimer() {
-  const weddingDate = new Date('2026-06-15T10:00:00').getTime();
+  const weddingDate = new Date('2026-04-04T09:00:00').getTime();
   
   const calculateTimeLeft = (): TimeLeft => {
     const difference = weddingDate - new Date().getTime();

@@ -42,8 +42,8 @@ export function EventDetails() {
                 <Calendar className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-800">Sabtu, 15 Juni 2026</p>
-                <p className="text-sm text-gray-600">14 Dzulhijjah 1447 H</p>
+                <p className="font-medium text-gray-800">Sabtu, 04 April 2026</p>
+                <p className="text-sm text-gray-600">16 Syawal 1447 H</p>
               </div>
             </div>
             
@@ -52,7 +52,7 @@ export function EventDetails() {
                 <Clock className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-800">08:00 - 10:00 WIB</p>
+                <p className="font-medium text-gray-800">09:00 - 10:00 WIB</p>
                 <p className="text-sm text-gray-600">Waktu Indonesia Barat</p>
               </div>
             </div>
@@ -62,9 +62,9 @@ export function EventDetails() {
                 <MapPin className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-800">Masjid Al-Hikmah</p>
+                <p className="font-medium text-gray-800">Jl. Dt. Parpatiah nan Sabatang</p>
                 <p className="text-sm text-gray-600">
-                  Jl. Raya Pernikahan No. 123, Jakarta Selatan, DKI Jakarta
+                  Kel. Padang Tangah Payodabar, Kec. Payakumbuh Timur, Kota Payakumbuh, Sumatera Barat
                 </p>
               </div>
             </div>
@@ -90,8 +90,8 @@ export function EventDetails() {
                 <Calendar className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-800">Sabtu, 15 Juni 2026</p>
-                <p className="text-sm text-gray-600">14 Dzulhijjah 1447 H</p>
+                <p className="font-medium text-gray-800">Sabtu, 04 April 2026</p>
+                <p className="text-sm text-gray-600">16 Syawal 1447 H</p>
               </div>
             </div>
             
@@ -100,7 +100,7 @@ export function EventDetails() {
                 <Clock className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-800">11:00 - 14:00 WIB</p>
+                <p className="font-medium text-gray-800">11:00 - 17:00 WIB</p>
                 <p className="text-sm text-gray-600">Waktu Indonesia Barat</p>
               </div>
             </div>
@@ -110,25 +110,12 @@ export function EventDetails() {
                 <MapPin className="w-6 h-6 text-emerald-600" />
               </div>
               <div>
-                <p className="font-medium text-gray-800">Gedung Serbaguna Nurul Iman</p>
+                <p className="font-medium text-gray-800">Jl. Dt. Parpatiah nan Sabatang</p>
                 <p className="text-sm text-gray-600">
-                  Jl. Raya Pernikahan No. 125, Jakarta Selatan, DKI Jakarta
+                  Kel. Padang Tangah Payodabar, Kec. Payakumbuh Timur, Kota Payakumbuh, Sumatera Barat
                 </p>
               </div>
-            </div>
-
-            {/* Google Maps Button */}
-            <div className="pt-4">
-              <a
-                href="https://maps.google.com/?q=-6.2088,106.8456"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
-              >
-                <MapPin className="w-5 h-5" />
-                Lihat di Google Maps
-              </a>
-            </div>
+            </div>    
           </div>
         </motion.div>
       </div>

@@ -48,9 +48,9 @@ export function NewClosingSection() {
               Kami yang berbahagia,
             </div>
             <div className="flex items-center justify-center gap-2 text-emerald-800 font-serif text-xl">
-              <span>Yohanes</span>
+              <span>Sakhi</span>
               <Heart className="w-5 h-5 text-emerald-600 fill-emerald-600" />
-              <span>Feres</span>
+              <span>Indah</span>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ export function NewClosingSection() {
               Made with <Heart className="w-4 h-4 inline text-red-500 fill-red-500" /> for our special day
             </p>
             <p className="text-xs text-gray-500">
-              © 2026 Yohanes & Feres Wedding
+              © 2026 Sakhi & Indah Wedding
             </p>
           </motion.div>
         </motion.div>

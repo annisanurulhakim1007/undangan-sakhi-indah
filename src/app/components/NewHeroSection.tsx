@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
-import imgNamesCalligraphy from 'figma:asset/b3110e07f6eda7a15fbf8fe413a0ce4513599887.png';
-import imgBismillah from 'figma:asset/057d150c9d4fd46600a11c8f7f6b80267119ac38.png';
+import imgNamesCalligraphy from "../../assets/walimatul.png";
+import imgBismillah from "../../assets/bismillah.png";
 
 export function NewHeroSection() {
   return (
@@ -86,7 +86,7 @@ export function NewHeroSection() {
         >
           <img 
             src={imgNamesCalligraphy}
-            alt="Yohanes & Feres"
+            alt="Saakhi & Indah"
             className="w-72 mx-auto"
           />
         </motion.div>
@@ -100,9 +100,9 @@ export function NewHeroSection() {
         >
           <div>
             <h1 className="text-4xl font-serif text-emerald-800 mb-2">
-              Yohanes
+              Ahmad Saakhi
             </h1>
-            <p className="text-gray-600 text-sm">Putra dari Bapak [Nama Ayah] & Ibu [Nama Ibu]</p>
+            <p className="text-gray-600 text-sm">Putra dari Bapak Ahmad Siddiq & Ibu Susi Yemita</p>
           </div>
           
           <div className="flex items-center justify-center gap-3 my-6">
@@ -113,9 +113,9 @@ export function NewHeroSection() {
           
           <div>
             <h1 className="text-4xl font-serif text-emerald-800 mb-2">
-              Feres
+              Indah Kurnia Asyura
             </h1>
-            <p className="text-gray-600 text-sm">Putri dari Bapak [Nama Ayah] & Ibu [Nama Ibu]</p>
+            <p className="text-gray-600 text-sm">Putri dari Bapak Syamsul Bahri & Ibu Linda Yanti</p>
           </div>
         </motion.div>
 
