@@ -20,6 +20,7 @@ export function CoupleSection() {
           />
         </motion.div>
 
+        <div className="flex flex-col gap-8">
         {/* Bride Info */}
         <motion.div
           initial={{ opacity: 0, x: 20 }}
@@ -87,6 +88,7 @@ export function CoupleSection() {
             </div>
           </div>
         </motion.div>
+        </div>
       </div>
     </section>
   );
