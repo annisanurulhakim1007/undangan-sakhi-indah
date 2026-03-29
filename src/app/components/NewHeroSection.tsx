@@ -103,7 +103,7 @@ export function NewHeroSection() {
             <h1 className="text-4xl font-serif text-emerald-800 mb-2">
               Indah Kurnia Asyura
             </h1>
-            <p className="text-gray-600 text-sm">Putra dari Bapak Syamsul Bahri & Ibu Linda Yanti</p>
+            <p className="text-gray-600 text-sm">Putri dari Bapak Syamsul Bahri & Ibu Linda Yanti</p>
           </div>
           
           <div className="flex items-center justify-center gap-3 my-6">
